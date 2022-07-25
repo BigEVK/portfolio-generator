@@ -71,6 +71,7 @@ module.exports = templateData => {
         <meta name="viewport" content="width=device-width, intial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Portfolio Demo</title>
+        <link rel="stylesheet" href="./style.css">
         </head>
 
     <body>
@@ -79,7 +80,7 @@ module.exports = templateData => {
         <div class="container flex-row justify-space-between align-center py-3">
 
         <h1 class="page-title text-secondary bg-dark py-2 px-3">${header.name}</h1>
-        <nav class=:"flex-row">
+        <nav class="flex-row">
         <a class="ml-2 my-1 px-2 py-1 bg-secondary text-dark" href="https://github.com/${header.github}">GihHub</a>
         </nav>
         </div>
