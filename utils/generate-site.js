@@ -25,4 +25,4 @@ const writeFile = fileContent => {
 //     copyFile: copyFile
 // };
 // -------- The above is the same as below --------
-module.exports = {writeFile, copyFile };
+module.exports = { writeFile, copyFile };
